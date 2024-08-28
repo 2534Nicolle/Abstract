@@ -1,0 +1,44 @@
+package Abstrata;
+
+public class Carro extends Veiculos{
+	
+	@Override
+	public void acelerar() {
+		System.out.println("Acelerando");
+	}
+	@Override
+	public void frear() {
+		System.out.println("Freando");
+	}
+	@Override
+	public void virar() {
+		System.out.println("Virando");
+	}
+	@Override
+	public void ligar() {
+		System.out.println("Ligando");
+	}
+}
+--------------------------------------------------------------------------
+package Abstrata;
+
+public class Onibus extends Veiculos {
+	
+	@Override
+	public void acelerar() {
+		System.out.println("Acelerando o Busão");
+	}
+	@Override
+	public void frear() {
+		System.out.println("Freando o Busão");
+	}
+	@Override
+	public void virar() {
+		System.out.println("Virando o Busão");
+	}
+	@Override
+	public void ligar() {
+		System.out.println("Ligando o Busão");
+	}
+
+}
