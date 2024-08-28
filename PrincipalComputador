@@ -1,21 +1,17 @@
 package TheOtherOne;
 
-public class Computa implements Computador{
-	
-	@Override
-	public void ligar() {
-		System.out.println("Ligando.");
+public class PrincipalComputador {
+
+	public static void main(String[] args) {
+		
+		Computa Gamer = new Computa();
+		Computa Home = new Computa();
+		
+		Gamer.ligar();
+		Gamer.reiniciar();
+		Gamer.desligar();
+		Gamer.carregandoSistemas();
+
 	}
-	@Override
-	public void reiniciar() {
-		System.out.println("Reiniciando.");
-	}
-	@Override
-	public void desligar() {
-		System.out.println("Desligando.");
-	}
-	@Override
-	public void carregandoSistemas() {
-		System.out.println("Carregando.");
-	} 
+
 }
