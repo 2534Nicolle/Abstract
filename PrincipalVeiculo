@@ -1,0 +1,16 @@
+package TheOtherOne;
+
+public class PrincipalVeiculo {
+
+	public static void main(String[] args) {
+		
+		Ferrari Jhonny = new Ferrari();
+		
+		Jhonny.ligar();
+		Jhonny.desligar();
+		Jhonny.manobrar();
+		Jhonny.engatar();
+		Jhonny.acelerar();
+		Jhonny.frear();		
+	}
+}
