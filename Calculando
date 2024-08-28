@@ -1,0 +1,46 @@
+package TheOtherOne;
+
+import java.util.Scanner;
+
+public class Calculando implements Calculos{
+	double X=0, Y=0,Z=0, Soma=0, Sub=0, Mult=0,Div=0, Exp=0;;
+	
+	Scanner ler = new Scanner(System.in);
+	
+	@Override
+	public double somar() {
+		System.out.println("Digite um valor: ");
+		X= ler.nextDouble();
+		System.out.println("Digite outro valor: ");
+		Y= ler.nextDouble();
+		System.out.println("Digite mais um valor: ");
+		Z= ler.nextDouble();
+		Soma=X+Y;
+		System.out.println("A soma é:" +Soma);
+		return Soma	;
+	}
+	@Override
+	public double sub() {
+		Sub=X-Y;
+		System.out.println("A subtração é:" +Sub);
+		return Sub;
+	}
+	@Override
+	public double mult() {
+		Mult=X*Y;
+		System.out.println("A multiplicação é:" +Mult);
+		return Mult;
+	}
+	@Override
+	public double div() {
+		Div=X/Y;
+		System.out.println("A divisão é:" +Div);
+		return Div;
+	}
+	@Override
+	public double exp() {
+		Exp=X*Y*Z;
+		System.out.println("O exponencial é:" +Exp);
+		return Exp;
+	}
+}
