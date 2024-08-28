@@ -1,0 +1,11 @@
+package TheOtherOne;
+
+public interface Calculos {
+	
+	public double somar();
+	public double sub();
+	public double mult();
+	public double div();
+	public double exp();
+	
+}
