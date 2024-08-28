@@ -1,0 +1,17 @@
+package TheOtherOne;
+
+public class PrincipalCalculos {
+
+	public static void main(String[] args) {
+		
+       Calculando cal  = new Calculando();
+		
+       System.out.println(cal.somar());
+       System.out.println(cal.sub());
+       System.out.println(cal.mult());
+       System.out.println(cal.div());
+       System.out.println(cal.exp());
+
+	}
+
+}
