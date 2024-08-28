@@ -1,0 +1,51 @@
+package Abstrata;
+
+public class PrincipalAnimal {
+
+	public static void main(String[] args) {
+
+		Lobo Mal = new Lobo();
+		Leao Mufasa = new Leao();
+		Tigre Tigrinho = new Tigre();
+		Cachorro Doguinho = new Cachorro();
+		Gato Milton = new Gato();
+	
+	    System.out.println("**** LOBO ****");
+	    Mal.dormir();
+	    Mal.caminhar();
+	    Mal.correr();
+	    Mal.emitirSom();
+		
+	   System.out.println("------------------------------");
+	   
+	   System.out.println("**** LEÃO ****");
+	    Mufasa.dormir();
+	    Mufasa.caminhar();
+	    Mufasa.correr();
+	    Mufasa.emitirSom();
+	    
+	    System.out.println("------------------------------");
+	    
+	    System.out.println("**** TIGRE ****");
+	    Tigrinho.dormir();
+	    Tigrinho.caminhar();
+	    Tigrinho.correr();
+	    Tigrinho.emitirSom();
+	    
+	    System.out.println("------------------------------");
+	    
+	    System.out.println("**** CACHORRO ****");
+	    Doguinho.dormir();
+	    Doguinho.caminhar();
+	    Doguinho.correr();
+	    Doguinho.emitirSom();
+	    
+	    System.out.println("------------------------------");
+	    
+	    System.out.println("**** GATO ****");
+	    Milton.dormir();
+	    Milton.caminhar();
+	    Milton.correr();
+	    Milton.emitirSom();
+	}
+}
